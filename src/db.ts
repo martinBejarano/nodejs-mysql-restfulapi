@@ -7,7 +7,7 @@ const pool = createPool({
     password: DB_PASSWORD,
     /*@ts-ignore*/
     port: DB_PORT,
-    database: 'companydb'
+    database: DB_DATABASE
 })
 
 export { pool };
