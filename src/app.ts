@@ -5,4 +5,9 @@ const app: Express = express();
 // CRUD
 app.use(router)
 
+// Not find
+app.use((req,res)=>{
+    res.status(404).send('Endpoint not found')
+})
+
 export default app;
