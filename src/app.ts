@@ -4,8 +4,9 @@ import cors from 'cors';
 
 const app: Express = express();
 
+
 // CORS
-app.use(cors);
+app.use(cors());
 
 // CRUD
 app.use(router)

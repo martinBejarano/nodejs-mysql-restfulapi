@@ -3,7 +3,7 @@ import router from './routes/employees.routes.js';
 import cors from 'cors';
 const app = express();
 // CORS
-app.use(cors);
+app.use(cors());
 // CRUD
 app.use(router);
 // Not find
